@@ -9,7 +9,7 @@ restart_process(){
     while [ $attempts -le 3 ] && [ $status -eq 0 ]
     do
         echo "Starting the service"
-        $(sudo systemctl start nginx )
+        $(sudo systemctl start $process_name)
         sleep 2
         status=$(pgrep $1 | wc -l)
         attempts=`expr $attempts + 1`
