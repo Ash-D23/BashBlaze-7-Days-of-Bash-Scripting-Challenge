@@ -35,7 +35,6 @@ monitor_service(){
             fi
         fi
     fi
-
 }
 
 while true; do
