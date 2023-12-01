@@ -85,4 +85,4 @@ ssh $username2@$ip2 docker run -d -p 80:80 web-app:latest
 8. Validate successful web application deployment.
 ![client app1](../../assets/sc2.png)
 
-![client app2](../../assets/sc2.png)
+![client app2](../../assets/sc3.png)
